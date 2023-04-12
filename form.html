@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Saudação Personalizada</title>
+</head>
+<body>
+    <h1>Insira seu nome:</h1>
+    <input type="text" id="nomeInput">
+    <button onclick="mostrarSaudacao()">Mostrar Saudação</button>
+    <p id="saudacao"></p>
+
+    <script>
+        function mostrarSaudacao() {
+            var nome = document.getElementById('nomeInput').value;
+            var saudacao = "Bom dia, " + nome;
+            document.getElementById('saudacao').textContent = saudacao;
+        }
+    </script>
+</body>
+</html>
