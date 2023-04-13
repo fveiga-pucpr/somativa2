@@ -1,2 +1,2 @@
-soma=(1+12)
+soma=(2+12)
 print(soma)
